@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/yellowbrown"
+        android:elevation="16dp"
+        app:cardCornerRadius="16dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <RadioButton
+                android:id="@+id/rdoBtn_Check_HoaDon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:lineHeight="100dp"
+                android:clickable="false"
+                android:focusable="false">
+
+            </RadioButton>
+
+
+
+
+            <LinearLayout
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_weight="1"
+                        android:id="@+id/txt_TrangThaiHoaDon"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Tên Nhân Viên"
+                        android:textAllCaps="true"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+
+                        />
+                    <Button
+                        android:id="@+id/btn_ChiTietHoaDon"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/chamthang"
+
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="left">
+
+                    <TextView
+                        android:id="@+id/txt_TongTien"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left"
+                        android:drawableLeft="@drawable/icons8_money_24"
+                        android:gravity="center_vertical"
+                        android:text=" Tổng tiền"
+                        android:textAllCaps="true"
+                        android:textColor="@color/brown"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/txt_day"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left"
+
+                        android:drawableLeft="@drawable/icon_olock"
+                        android:gravity="center_vertical"
+                        android:text="  Date"
+                        android:textAllCaps="true"
+                        android:textColor="@color/brown"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

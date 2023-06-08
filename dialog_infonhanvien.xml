@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="350dp"
+    android:orientation="vertical"
+    android:background="@drawable/background_panel">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="!"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:textColor="@color/darkbrown"
+        android:gravity="center"
+        android:layout_marginLeft="70dp"
+        android:layout_gravity="center"
+        android:background="@drawable/background_button"
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="5dp"
+        android:text="Thông tin nhân viên"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:textColor="@color/darkbrown"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:id="@+id/txt_tennhanvien_dialog_nhanvien"
+                android:layout_width="190dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:textColor="@color/darkbrown"
+                android:textStyle="bold"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:text="Tên nhân viên"
+                />
+            <TextView
+                android:id="@+id/txt_taikhoan_dialog_nhanvien"
+                android:layout_width="190dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:textColor="@color/darkbrown"
+                android:textStyle="bold"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:text="Tài khoản"/>
+            <TextView
+                android:id="@+id/txt_chucvu_dialog_nhanvien"
+                android:layout_width="190dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:textColor="@color/darkbrown"
+                android:textStyle="bold"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:text="Chức vụ"/>
+            <TextView
+                android:id="@+id/txt_sodienthoai_dialog_nhanvien"
+                android:layout_width="190dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:textColor="@color/darkbrown"
+                android:textStyle="bold"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:text="Số điện thoại"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txt_manhanvien_dialog_nhanvien"
+                android:layout_width="190dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:textColor="@color/darkbrown"
+                android:textStyle="bold"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:text="Mã nhân viên"/>
+
+            <TextView
+                android:id="@+id/txt_ngaysinh_dialog_nhanvien"
+                android:layout_width="190dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:textColor="@color/darkbrown"
+                android:textStyle="bold"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:text="Ngày sinh"/>
+            <RadioGroup
+                android:layout_width="190dp"
+                android:layout_height="80dp">
+                <RadioButton
+                    android:id="@+id/rdo_Nam_nhanvien"
+                    android:layout_width="190dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/darkbrown"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    android:text="Nam"/>
+
+                <RadioButton
+                    android:id="@+id/rdo_Nu_nhanvien"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left"
+                    android:text="Nữ"
+                    android:textColor="@color/darkbrown"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RadioGroup>
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_dongdialog_infonhanvien"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="X"
+        android:layout_gravity="right"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/background_button"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:textColor="@color/darkbrown"/>
+
+
+</LinearLayout>

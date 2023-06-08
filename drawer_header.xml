@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/brownlight"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:orientation="vertical"
+        android:id="@+id/layout_header">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/logo"
+            android:id="@+id/profiles"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="@string/nav_header_title"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/profiles"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginLeft="16dp"
+            android:textColor="@color/brown"
+            android:id="@+id/txt_user_nav"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:text="0123456789"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/profiles"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_marginLeft="16dp"
+                android:textColor="#3E3427"
+                android:id="@+id/txt_sdt_nav"/>
+            <com.github.angads25.toggle.widget.LabeledSwitch
+                android:id="@+id/on_off"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_margin="16dp"
+                android:textSize="14sp"
+                app:colorOn="@color/darkbrown"
+                app:textOn="Làm việc"
+                app:textOff="Nghỉ"
+                app:colorBorder="@color/darkbrown"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_below="@id/layout_header"
+        style="@style/line"/>
+
+
+
+</LinearLayout>

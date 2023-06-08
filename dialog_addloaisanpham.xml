@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="350dp"
+    android:orientation="vertical"
+    android:background="@drawable/background_panel">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="20dp"
+    android:fontFamily="sans-serif-condensed-medium"
+    android:text="Thêm loại sản phẩm"
+    android:textAlignment="center"
+    android:textAllCaps="true"
+    android:textColor="@color/brown"
+    android:textSize="28sp"
+    android:textStyle="bold"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Tên loại"
+        android:textColor="@color/brown"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+    <EditText
+        android:id="@+id/txt_tenloai"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:hint="tên loại"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/brown"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/btn_addmaloai"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:text="Lưu"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/background_button"/>
+
+
+</LinearLayout>

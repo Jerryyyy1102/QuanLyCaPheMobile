@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="#E4C56B"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+
+        <TextView
+            android:id="@+id/txt_tenNhanVien_qlnv"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="Tên "
+            android:textAllCaps="true"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/brown"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txt_maNhanVien_qlnv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="01"
+            android:textAllCaps="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/brown"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp">
+    <ImageButton
+        android:layout_marginRight="5dp"
+        android:background="@color/white"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/baseline_subject_24"
+        android:id="@+id/imgbtn_NhanVieninformation"></ImageButton>
+    <ImageButton
+        android:layout_marginRight="5dp"
+
+        android:background="@color/white"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/baseline_update_24"
+        android:id="@+id/imgbtn_NhanVienupdate"></ImageButton>
+    <ImageButton
+        android:background="@color/white"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/baseline_delete_24"
+        android:id="@+id/imgbtn_NhanViendelete"></ImageButton>
+    </LinearLayout>
+</LinearLayout>

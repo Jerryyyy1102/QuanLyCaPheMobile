@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    android:layout_marginBottom="10dp">
+
+   <TextView
+       android:id="@+id/txt_tenSP_CTHD"
+       android:layout_weight="1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Cà phê"
+       android:textSize="20sp"
+       android:layout_marginLeft="20dp"
+
+       />
+    <TextView
+        android:id="@+id/txt_SL_CTHD"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:paddingLeft="65dp"
+        android:textSize="20sp"
+
+        />
+    <TextView
+        android:id="@+id/txt_ThanhTien_CTHD"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="40000"
+        android:textSize="20sp"
+
+        />
+
+
+</LinearLayout>

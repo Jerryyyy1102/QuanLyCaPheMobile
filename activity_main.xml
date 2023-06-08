@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFD39B"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="start">
+
+    <ImageView
+        android:id="@+id/wave_coffee"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/wave"
+        android:layout_gravity="center_vertical"
+        />
+    <ImageView
+        android:id="@+id/logo_main"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center_horizontal"
+       />
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:layout_gravity="center_horizontal"
+        app:lottie_rawRes="@raw/lf20_ziicb44q"></com.airbnb.lottie.LottieAnimationView>
+    <TextView
+        android:id="@+id/txt_from_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_gravity="center_horizontal"
+        android:text="from"
+        android:textColor="#8B5A2B"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/txt_nhom13_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/app_name"
+        android:textColor="#8B5A2B"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>
