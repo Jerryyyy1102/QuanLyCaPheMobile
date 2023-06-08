@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brownlight">#FFE6C5</color>
+    <color name="brown">#9A5800</color>
+    <color name="darkbrown">#824A00</color>
+    <color name="orangebrown">#CD853F</color>
+    <color name="yellowbrown">#EE9A49</color>
+    <color name="black">#CD853F</color>
+    <color name="white">#FFE6C5</color>
+    <color name="greylight">#824A00</color>
+
+</resources>
