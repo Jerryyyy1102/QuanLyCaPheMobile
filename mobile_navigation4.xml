@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation4"
+    app:startDestination="@+id/hihi_nav_home">
+
+    <fragment
+        android:id="@+id/hihi_nav_home"
+        android:name="com.example.myapplication.ui.trangchu.TrangchuFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_trangchu" />
+
+    <fragment
+        android:id="@+id/nav_store"
+        android:name="com.example.myapplication.ui.cuahang.CuahangFragment"
+        android:label="@string/menu_store"
+        tools:layout="@layout/fragment_thongke" />
+
+    <fragment
+        android:id="@+id/nav_order"
+        android:name="com.example.myapplication.ui.dathang.DathangFragment"
+        android:label="@string/menu_order"
+        tools:layout="@layout/fragment_gio_hang" />
+    <fragment
+        android:id="@+id/nav_managerSP"
+        android:name="com.example.myapplication.ui.qlsp.QuanLySanPhamFragment"
+        android:label="@string/menu_order"
+        tools:layout="@layout/fragment_gio_hang" />
+    <fragment
+        android:id="@+id/nav_managerNV"
+        android:name="com.example.myapplication.ui.qlns.QuanLyNhanSuFragment"
+        android:label="@string/menu_order"
+        tools:layout="@layout/fragment_gio_hang" />
+
+
+</navigation>
