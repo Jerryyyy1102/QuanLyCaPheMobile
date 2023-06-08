@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Thiết lập màu của hình chữ nhật -->
+    <solid android:color="@color/white" />
+
+    <!-- Thiết lập bán kính của góc -->
+    <corners android:radius="50dp" />
+    <!-- Thiết lập kích thước của hình chữ nhật -->
+    <size
+        android:width="100dp"
+        android:height="100dp" />
+</shape>
