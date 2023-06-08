@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single" android:id="@+id/group">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/bill"
+            android:title="@string/menu_order" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/baseline_storefront_24"
+            android:title="@string/menu_report" />
+    </group>
+
+    <item android:title="Tài khoản" android:id="@+id/menu_taikhoan">
+        <menu>
+            <group android:checkableBehavior="all">
+                <item
+                    android:id="@+id/nav_info"
+                    android:icon="@drawable/icons"
+                    android:title="@string/menu_info" />
+                <item
+                    android:id="@+id/nav_address"
+                    android:icon="@drawable/baseline_bookmark_border_24"
+                    android:title="@string/menu_address" />
+                <item
+                    android:id="@+id/nav_set"
+                    android:icon="@drawable/baseline_settings_24"
+                    android:title="@string/menu_support" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/icons8signin"
+                    android:title="@string/menu_logout" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Quản lý cửa hàng"
+        android:id="@+id/quanlycuahang_nav"
+        android:checkable="true"
+        android:checked="true"
+        android:enabled="true">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_QlySanPham"
+                    android:icon="@drawable/baseline_star_outline_24"
+                    android:title="@string/menu_sanpham" />
+                <item
+                    android:id="@+id/nav_qlyHoaDon"
+                    android:icon="@drawable/icons8_bill_24"
+                    android:title="@string/menu_hoadon" />
+                <item
+                    android:id="@+id/nav_QlyNhapHang"
+                    android:icon="@drawable/icons8_storage_24"
+                    android:title="@string/menu_khohang" />
+                <item
+                    android:id="@+id/nav_QlyNhanSu"
+                    android:icon="@drawable/icons8_staff_24"
+                    android:title="@string/menu_nhansu" />
+
+            </group>
+        </menu>
+    </item>
+</menu>
